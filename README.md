@@ -6,7 +6,10 @@
 [![Vite SPA](https://img.shields.io/badge/Vite-8.x-646CFF.svg)](https://vite.dev/)
 [![React](https://img.shields.io/badge/React-19.x-61DAFB.svg)](https://react.dev/)
 [![Tests Passing](https://img.shields.io/badge/Vitest-253%20Passed-success.svg)](https://vitest.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Deploy: Vercel](https://img.shields.io/badge/Deploy-Vercel%20Ready-black?logo=vercel)](https://vercel.com/)
 [![Client-Side SPA](https://img.shields.io/badge/Architecture-100%25%20Client--Side-brightgreen.svg)]()
+
 
 OScope is an interactive client-side simulation and visualization observatory for Operating Systems concepts. It transforms abstract kernel mechanisms—such as process state transitions, CPU preemption schedules, virtual-to-physical address translations, deadlock avoidance safety vectors, and storage block layouts—into transparent, observable, and academically explainable operations.
 
@@ -252,4 +255,7 @@ OScope is configured as a static Single Page Application (SPA) compatible with m
 
 ## 12. License
 
-Developed for educational purposes in University Operating Systems curricula. All algorithmic models are designed for conceptual instruction and academic demonstration.
+Released under the **[MIT License](./LICENSE)**.  
+Copyright (c) 2026 Ekramul Islam (Ohi).
+
+Developed for academic education and research in Operating Systems curricula. All algorithmic models are designed for conceptual instruction, interactive visualization, and deterministic demonstration.

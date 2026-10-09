@@ -1,7 +1,14 @@
 {
   "name": "oscope",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Ekramul Islam (Ohi) <ekraislamohi2023@gmail.com>",
+  "homepage": "https://github.com/ekraislam/oscope#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekraislam/oscope.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
