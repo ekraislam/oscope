@@ -1,0 +1,141 @@
+/**
+ * Typography scale and helper classes for OScope
+ */
+
+.text-xs {
+  font-size: 0.8125rem;
+  line-height: 1.2rem;
+}
+
+.text-sm {
+  font-size: 0.9375rem;
+  line-height: 1.45rem;
+}
+
+.text-base {
+  font-size: 1.0625rem;
+  line-height: 1.65rem;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-2xl {
+  font-size: 1.875rem;
+  line-height: 2.35rem;
+}
+
+.text-3xl {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #38BDF8 0%, #A78BFA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-primary {
+  color: var(--color-text-primary);
+}
+
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.text-success {
+  color: var(--color-success);
+}
+
+.text-warning {
+  color: var(--color-warning);
+}
+
+.text-danger {
+  color: var(--color-danger);
+}
+
+.text-ready {
+  color: var(--color-ready);
+}
+
+/* Tabular figures for telemetry matrices, Gantt time ticks, and clocks */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Monospace telemetry metric display */
+.metric-display {
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.metric-caption {
+  font-size: 0.6875rem;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+/* Accessible Screen Reader Only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

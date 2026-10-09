@@ -1,0 +1,121 @@
+/**
+ * OScope Design Tokens — Academic Telemetry Observatory Theme
+ * Systems-grade tokens for professional academic presentation.
+ */
+
+:root {
+  /* Surface & Ground Colors */
+  --color-bg: #070A13;
+  --color-surface: #0E1424;
+  --color-surface-elevated: #161F36;
+  --color-surface-subdued: #0A0F1D;
+  --color-surface-hover: #19233C;
+  --color-surface-active: #212D4C;
+
+  /* Borders & Dividers */
+  --color-border: #222F46;
+  --color-border-subtle: #162035;
+  --color-border-elevated: #314361;
+  --color-border-focus: #38BDF8;
+  --color-border-strong: #3E516F;
+
+  /* Text Colors — High-Contrast Academic Telemetry Scale */
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #CBD5E1;
+  --color-text-muted: #94A3B8;
+  --color-text-disabled: #64748B;
+
+  /* Primary Brand & Telemetry Accent */
+  --color-accent: #38BDF8;
+  --color-accent-hover: #0EA5E9;
+  --color-accent-subtle: rgba(56, 189, 248, 0.12);
+  --color-accent-border: rgba(56, 189, 248, 0.35);
+
+  /* Semantic OS State Colors */
+  --color-success: #10B981;
+  --color-success-hover: #059669;
+  --color-success-subtle: rgba(16, 185, 129, 0.12);
+  --color-success-border: rgba(16, 185, 129, 0.3);
+
+  --color-ready: #8B5CF6;
+  --color-ready-subtle: rgba(139, 92, 246, 0.12);
+  --color-ready-border: rgba(139, 92, 246, 0.3);
+
+  --color-warning: #F59E0B;
+  --color-warning-subtle: rgba(245, 158, 11, 0.12);
+  --color-warning-border: rgba(245, 158, 11, 0.3);
+
+  --color-danger: #EF4444;
+  --color-danger-subtle: rgba(239, 68, 68, 0.12);
+  --color-danger-border: rgba(239, 68, 68, 0.3);
+
+  --color-info: #0284C7;
+  --color-info-subtle: rgba(2, 132, 199, 0.12);
+
+  --color-offline: #475569;
+  --color-offline-subtle: rgba(71, 85, 105, 0.2);
+
+  /* Typography */
+  --app-font-size: 18px;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Spacing Scale (4px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Border Radii */
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 4px 12px -1px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.6);
+  --shadow-glow-accent: 0 0 20px rgba(56, 189, 248, 0.15);
+  --shadow-glow-success: 0 0 20px rgba(16, 185, 129, 0.15);
+  --shadow-glow-danger: 0 0 20px rgba(239, 68, 68, 0.15);
+  --shadow-glow-warning: 0 0 20px rgba(245, 158, 11, 0.15);
+
+  /* Motion & Transitions */
+  --motion-fast: 150ms;
+  --motion-normal: 250ms;
+  --motion-slow: 400ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  --transition-fast: var(--motion-fast) var(--ease-standard);
+  --transition-normal: var(--motion-normal) var(--ease-standard);
+  --transition-slow: var(--motion-slow) var(--ease-standard);
+
+  /* Focus Indicator Ring */
+  --focus-ring: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-accent);
+
+  /* Z-Index Hierarchy */
+  --z-base: 1;
+  --z-elevated: 10;
+  --z-sticky: 20;
+  --z-header: 30;
+  --z-modal: 50;
+  --z-tooltip: 100;
+}
+
+/* Exhibition Mode Preset Overrides (High-Density & Cleaned Layout for Exhibitions) */
+.exhibition-mode {
+  --color-border: #2E3E5B;
+  --color-surface: #111A30;
+  --color-surface-elevated: #1B2847;
+  --color-text-secondary: #CBD5E1;
+}

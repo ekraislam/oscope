@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#070A12"/>
+  <rect x="1" y="1" width="30" height="30" rx="5" stroke="#1E293B" stroke-width="1"/>
+  <!-- Oscilloscope Waveform Grid Lines -->
+  <path d="M4 16H28" stroke="#1E293B" stroke-width="1" stroke-dasharray="2 2"/>
+  <path d="M16 4V28" stroke="#1E293B" stroke-width="1" stroke-dasharray="2 2"/>
+  <!-- Pulse Wave representing OS Interrupt / Scheduling -->
+  <path d="M5 16H10L12 8L15 24L18 12L20 18L22 16H27" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
